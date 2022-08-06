@@ -73,7 +73,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   margin-top: 0;
-  border: 1px solid red;
+  color: hsl(0, 0%, 41%)
 }
 
 .learnmore {
@@ -86,11 +86,24 @@ body {
   color: white;
   font-family: 'Epilogue', sans-serif;
   font-size: 16px;
+  margin-bottom: 4%;
 }
 
 .learnmore:hover {
   background-color: orange;
   cursor: pointer;
+}
+
+.client-logos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.clients {
+  width: 15%;
 }
 
 
