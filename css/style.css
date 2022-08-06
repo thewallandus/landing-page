@@ -169,5 +169,12 @@ body {
   width: 15%;
 }
 
+.active {
+  display: flex;
+}
+
+.inactive {
+  display: none;
+}
 
 
