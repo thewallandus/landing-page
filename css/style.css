@@ -93,6 +93,11 @@ body {
   margin: 15% 0;
 }
 
+.option-container {
+  display: flex;
+  flex-direction: row;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
