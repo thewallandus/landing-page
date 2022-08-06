@@ -71,11 +71,11 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: none;
+  width: 255px;
   flex-direction: column;
   position: fixed;
   height: 100%;
-  width: 255px;
   align-self: flex-end;
   color: hsl(0, 0%, 41%);
   padding-top: 5%;
