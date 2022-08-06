@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
+  font-family: 'Epilogue', sans-serif;
 }
 
 /* Clear fix hack */
@@ -47,7 +47,11 @@ body {
   width: 100%;
 }
 
-
+.header-text-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 
