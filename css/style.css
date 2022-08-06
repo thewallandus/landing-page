@@ -53,13 +53,28 @@ body {
   text-align: center;
 }
 
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.headerh1 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 5%;
+  border: 1px solid red;
+}
+
+.headerparagraph {
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid red;
+  margin-top: 0;
+}
+
+
