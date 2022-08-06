@@ -86,16 +86,28 @@ body {
 }
 
 .sublist-parent {
-  padding-left: 15%;
+  padding-left: 5%;
 }
 
 .sublist {
   margin: 15% 0;
 }
 
+.main-options2 {
+  margin-top: -10%;
+}
+
 .option-container {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon {
+  height: 100%;
+  width: 12%;
+  margin-right: 5%;
 }
 
 
