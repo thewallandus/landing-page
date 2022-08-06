@@ -76,7 +76,16 @@ body {
   height: 100%;
   width: 225px;
   align-self: flex-end;
-  /* display: none; */
+  color: hsl(0, 0%, 41%);
+  padding-top: 10%;
+}
+
+.main-options {
+  margin: 10% 0;
+}
+
+.sublist {
+  margin: 10% 0;
 }
 
 
