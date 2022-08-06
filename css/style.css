@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Clear fix hack */
 .clearfix:after {
      content: ".";
@@ -21,7 +26,16 @@
 /* BASE STYLES
 /*******************************************/
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
 
+.menu-btn {
+  background: white;
+  border: none;
+}
 
 
 /******************************************
