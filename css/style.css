@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 /* Clear fix hack */
@@ -36,6 +37,18 @@ body {
   background: white;
   border: none;
 }
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-img {
+  width: 100%;
+}
+
+
+
 
 
 /******************************************
