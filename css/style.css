@@ -64,6 +64,7 @@ body {
 .sidebar * {
   list-style: none;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .sidebar {
@@ -81,11 +82,15 @@ body {
 }
 
 .main-options {
-  margin: 10% 0;
+  margin: 15% 0;
+}
+
+.sublist-parent {
+  padding-left: 15%;
 }
 
 .sublist {
-  margin: 10% 0;
+  margin: 15% 0;
 }
 
 
