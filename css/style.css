@@ -75,10 +75,10 @@ body {
   flex-direction: column;
   position: fixed;
   height: 100%;
-  width: 225px;
+  width: 255px;
   align-self: flex-end;
   color: hsl(0, 0%, 41%);
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .main-options {
@@ -90,7 +90,7 @@ body {
 }
 
 .sublist {
-  margin: 15% 0;
+  margin: 10% 0 10% 0;
 }
 
 .main-options2 {
@@ -110,6 +110,17 @@ body {
   margin-right: 5%;
 }
 
+.close-menu-btn {
+  width: 20%;
+  align-self: flex-end;
+  margin-top: 3%;
+  margin-right: 10%;
+  background: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
