@@ -67,14 +67,30 @@ body {
   font-weight: 700;
   font-size: 40px;
   padding-top: 5%;
-  border: 1px solid red;
 }
 
 .headerparagraph {
   font-weight: 500;
   font-size: 18px;
-  border: 1px solid red;
   margin-top: 0;
+  border: 1px solid red;
+}
+
+.learnmore {
+  width: 30%;
+  height: 50px;
+  align-self: center;
+  border-radius: 7%;
+  border: none;
+  background: black;
+  color: white;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 16px;
+}
+
+.learnmore:hover {
+  background-color: orange;
+  cursor: pointer;
 }
 
 
