@@ -71,7 +71,7 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
-  display: none;
+  display: flex;
   width: 255px;
   flex-direction: column;
   position: fixed;
@@ -121,6 +121,27 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.login {
+  text-align: center;
+  margin-left: -10%;
+}
+
+.register {
+  text-align: center;
+  margin-top: -5%;
+  margin-left: -10%;
+}
+
+.register-btn {
+  width: 80%;
+  height: 45px;
+  border-radius: 10%;
+  border: 1px solid hsl(0, 0%, 8%);
+  background: white;
+  color: hsl(0, 0%, 41%);
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
